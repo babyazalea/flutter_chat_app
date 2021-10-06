@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "930973509103",
+    "firebase_url": "https://all-the-practice-default-rtdb.firebaseio.com",
+    "project_id": "all-the-practice",
+    "storage_bucket": "all-the-practice.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:930973509103:android:d9205ea1c14fb84a59021a",
+        "android_client_info": {
+          "package_name": "com.example.flutter_chat_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "930973509103-8bd9o1rub8247lv03gbmoq07ubt0g224.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWp3xC52o6Ja28Teehzh1L-9XI79WaOMo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "930973509103-8bd9o1rub8247lv03gbmoq07ubt0g224.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "930973509103-1qa8tl9459cdgrn21gvk5fuqf7vo2eij.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flutterChatApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
