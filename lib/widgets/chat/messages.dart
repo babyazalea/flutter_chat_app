@@ -21,6 +21,11 @@ class Messages extends StatelessWidget {
               .orderBy('createdAt', descending: true)
               .snapshots(),
           builder: (ctx, chatSnapshot) {
+            if (chatSnapshot.connectionState == ConnectionState.waiting) {
+              return Center(
+                child: CircularProgressIndicator(),
+              );
+            }
             final chatDocs = chatSnapshot.data.documents;
             return ListView.builder(
               reverse: true,
